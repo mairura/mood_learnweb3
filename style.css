@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: aqua;
+    margin: 3rem;
+    padding: 30px;
+}
+
+div{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 15px;
+    background-color: brown;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+label{
+    padding-bottom: 1rem;;
+}
+
+input{
+    margin-left: 10rem;
+    justify-content: center;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+button{
+    width: 40%;
+    margin: 1rem 0 0.3rem 13rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
+    background-color: blue;
+    border: none;
+}
