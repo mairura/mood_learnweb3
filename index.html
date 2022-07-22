@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
     <title>dApp</title>
     <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
     type="application/javascript">
@@ -17,10 +19,10 @@
 <body>
     <div>
         <h1>This is my dApp</h1>
-        <p>Here we can set up the mood:</p>
+        <p>Here we can set up your mood</p>
         <label for="mood">Input Mood:</label>
-        <input type="text" id="mood" placeholder="Enter  your mood" />
-        <button onClick="getMood()"> Get Mood </button><br>
+        <input type="text" id="mood" value="What's your mood today" onfocus="this.value=''" />
+        <button onClick="getMood()"> Get Mood </button>
         <button onClick="setMood()">Set Mood</button>
     </div>
     <script src="app.js"></script> 

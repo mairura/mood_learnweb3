@@ -13,12 +13,13 @@ div{
     flex-direction: column;
     border: none;
     border-radius: 15px;
-    background-color: brown;
+    background-color: rgb(124, 175, 111);
 }
 
 h1{
-    font-size: 2rem;
-    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 label{
@@ -45,6 +46,6 @@ button{
     padding: 1rem;
     border-radius: 2rem;
     color: white;
-    background-color: blue;
+    background-color: rgb(255, 0, 119);
     border: none;
 }

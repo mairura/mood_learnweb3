@@ -15,4 +15,7 @@ contract MoodDiary {
     function getMood() public view returns(string memory){
         return mood;
     }
+
+    //TODO Store a list of mood for later retreval
+    //TODO Learn to access previous blockchain transactions
 }
