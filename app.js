@@ -48,7 +48,7 @@ provider.send("eth_requestAccounts", []).then(() => {
             MoodContractABI,
             signer
         )
-        console.log("MoodContract:", MoodContract);
+        // console.log("MoodContract:", MoodContract);
     })
 })
 
@@ -56,12 +56,12 @@ provider.send("eth_requestAccounts", []).then(() => {
 async function getMood() {
     const getMoodPromise = MoodContract.getMood();
     const Mood = await getMoodPromise;
-    console.log(Mood);
-    console.log(getMoodPromise);
+    console.log("Get Mood:", Mood);
 }
 
 async function setMood() {
     const mood = document.getElementById("mood").value;
+    console.log("Set Mood:", mood);
     const setMoodPromise = await MoodContract.setMood(mood);
     await setMoodPromise;
 }
